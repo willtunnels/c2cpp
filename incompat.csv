@@ -1,0 +1,23 @@
+implicit cast from void* to other pointer types
+no true boolean type
+designated initializers for structs and arrays
+use of C++ keywords as identifiers
+inner struct scope
+"non-prototype (""K&R""-style) function declarations"
+"structs, unions, or enums with the same name"
+VLAs (and non-compile time sizeof)
+implicit conversion from int to enum types
+all file-scoped entities are extern by default
+lack of const std lib overloads
+character literals are of type int
+flexible array members
+enum values always stored as ints
+array parameter qualifiers
+implicit const discard on pointer assignment
+uninitialized const variables
+complex primitive data types
+goto or switch crossing an initialization
+multiple tentative defs of a single global var in a single translation unit
+inline and extern definitions of the same function
+"struct, union, and enum types declared in function prototypes"
+never UB on longjmp() (as in C++ with nontrivial destructors)
